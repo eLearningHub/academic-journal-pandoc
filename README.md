@@ -1,6 +1,8 @@
 # Writing Research Papers
 
-The source of the paper in this repository is in the `src` folder and its format is [pandoc markdown](https://pandoc.org/). You can [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repository and edit the source file of the paper. 
+This repository helps you start writing an academic journal paper on GitHub. The source file of the paper in the [pandoc markdown](https://pandoc.org/) format. You can find the source file in the `src` folder. 
+
+To start writing your own paper, you need to [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repository and edit the source file of the paper. 
 
 Each time that a change is made to the repository, a [GitHub Action](https://help.github.com/en/actions) is executed. Each GitHub Action in this repository generates an artifact, which is a zip file that contains the PDF version of the paper.
 
