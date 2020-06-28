@@ -1,2 +1,5 @@
-# academic-journal-pandoc
-Generate PDF from Markdown using pandoc
+# Writing research papers
+
+
+# Referances
+* [Pnadoc for scholars](https://pandoc-scholar.github.io/)
