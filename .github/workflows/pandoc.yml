@@ -32,9 +32,8 @@ jobs:
        mkdir dist
        pandoc src/journal-paper.md --to pdf --lua-filter=lua-filters/author-info-blocks/author-info-blocks.lua --from markdown+tex_math_single_backslash-autolink_bare_uris --output dist/journal-paper.pdf --self-contained --highlight-style tango --pdf-engine pdflatex --filter /usr/bin/pandoc-citeproc
      
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Upload
+      uses: actions/upload-artifact@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        
+        name: paper
+        path: dist
