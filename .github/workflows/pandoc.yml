@@ -17,7 +17,7 @@ jobs:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
     
-    - name: Install xmllint
+    - name: Install texlive
       run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
   
     - name: Setup Pandoc
@@ -27,6 +27,5 @@ jobs:
           
     - name: Build
       run: |
-       xelatex
-       pandoc src/journal-paper.md --to pdf --lua-filter=lua-filters/author-info-blocks/author-info-blocks.lua --from markdown+tex_math_single_backslash-autolink_bare_uris --output output/journal-paper.pdf --self-contained --highlight-style tango --pdf-engine xelatex --filter /usr/bin/pandoc-citeproc
+       pandoc src/journal-paper.md --to pdf --lua-filter=lua-filters/author-info-blocks/author-info-blocks.lua --from markdown+tex_math_single_backslash-autolink_bare_uris --output output/journal-paper.pdf --self-contained --highlight-style tango --pdf-engine pdflatex --filter /usr/bin/pandoc-citeproc
    
