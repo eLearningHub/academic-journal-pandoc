@@ -24,7 +24,7 @@ institute:
 - id: acme
   name: Acme Corporation
 abstract: |
-  This is the abstract.
+  This is the abstract. You can your own abstract here.
 
   It consists of two paragraphs.
 
