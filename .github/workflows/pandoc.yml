@@ -2,9 +2,11 @@ name: Pandoc
 
 on:
   push:
-    branches: [ master ]
+    branches-ignore:
+      - '**'
   pull_request:
-    branches: [ master ]
+    branches-ignore:
+      - '**'
 
 jobs:
 
