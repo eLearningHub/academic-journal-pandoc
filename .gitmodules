@@ -1,0 +1,6 @@
+[submodule "rticles"]
+	path = rticles
+	url = git@github.com:rstudio/rticles.git
+[submodule "lua-filters"]
+	path = lua-filters
+	url = git@github.com:pandoc/lua-filters.git
