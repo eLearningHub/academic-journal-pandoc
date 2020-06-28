@@ -17,6 +17,9 @@ jobs:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
     
+    - name: Install xmllint
+      run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+  
     - name: Setup Pandoc
       uses: r-lib/actions/setup-pandoc@v1
       with:
