@@ -16,7 +16,11 @@ jobs:
     
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
-    
+
+    - name: mkdir
+      run: |
+       mkdir public
+       
     - name: Generate PDF with Pandoc
       uses: docker://pandoc/latex:2.9
       with:
