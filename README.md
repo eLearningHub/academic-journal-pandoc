@@ -6,6 +6,8 @@ To start writing your own paper, you need to [fork](https://help.github.com/en/g
 
 Each time that a change is made to the repository, a [GitHub Action](https://help.github.com/en/actions) is executed. Each GitHub Action in this repository generates an artifact, which is a zip file that contains the PDF version of the paper.
 
+The example template in the templates folder is for Elsevier journals. You can use all the other journal templates in [this folder](https://github.com/rstudio/rticles/tree/master/inst/rmarkdown/templates). You just need to change `csl` and `template` locations in the source file from `templates/` to `rticles/inst/rmarkdown/templates/` and then add the folder of your desired journal.
+
 # References
 * [Pandoc](https://pandoc.org/)
 * [Pandoc for scholars](https://pandoc-scholar.github.io/)
