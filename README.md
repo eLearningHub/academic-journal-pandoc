@@ -1,3 +1,5 @@
+![Pandoc](https://github.com/eLearningHub/academic-journal-pandoc/workflows/Pandoc/badge.svg)
+
 # Writing Research Papers
 
 This repository helps you start writing an academic journal paper on GitHub. The source file of the paper in the [pandoc markdown](https://pandoc.org/) format. You can find the source file in the `src` folder. 
