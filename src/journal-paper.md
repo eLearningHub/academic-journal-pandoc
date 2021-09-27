@@ -1,5 +1,5 @@
 ---
-title: Short Paper
+title: Journal Paper 
 author:
 - correspondence: yes
   email: 'jane.doe\@example.com'
