@@ -2,7 +2,7 @@
 title: Journal Paper 
 author:
 - correspondence: yes
-  email: 'jane.doe\@journal.com'
+  email: 'jane.doe\@example.com'
   equal_contributor: yes
   id: Jane Doe
   institute:
