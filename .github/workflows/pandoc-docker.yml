@@ -12,11 +12,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    
-    - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master
-
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
     - name: mkdir
       run: |
        mkdir public
