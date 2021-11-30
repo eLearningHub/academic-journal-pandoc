@@ -14,11 +14,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    
-    - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master
-    
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive    
     - name: Install texlive
       run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
   
