@@ -21,9 +21,9 @@ jobs:
        mkdir public
        
     - name: Generate PDF with Pandoc
-      uses: docker://pandoc/latex:2.9
+      uses: docker://pandoc/latex:2.16.2
       with:
-        args: "--to pdf --lua-filter=lua-filters/author-info-blocks/author-info-blocks.lua --from markdown+tex_math_single_backslash-autolink_bare_uris --output public/journal-paper.pdf --self-contained --highlight-style tango --pdf-engine pdflatex --filter /usr/bin/pandoc-citeproc src/journal-paper.md"
+        args: "--to pdf --lua-filter=lua-filters/author-info-blocks/author-info-blocks.lua --from markdown+tex_math_single_backslash-autolink_bare_uris --output public/journal-paper.pdf --self-contained --highlight-style tango --pdf-engine pdflatex --citeproc src/journal-paper.md"
 
     - name: Upload
       uses: actions/upload-artifact@master
