@@ -33,3 +33,6 @@ make build
 * [Pandoc markdown lecture template](https://github.com/cagix/pandoc-lecture)
 * [minidocks pandoc](https://github.com/minidocks/pandoc)
 * [Pandoc Scholar](https://pandoc-scholar.github.io/)
+* [Open Science Frameword](https://osf.io/)
+* [Authorea](https://www.authorea.com)
+* [Manuscripts.io](https://www.manuscripts.io)
