@@ -36,3 +36,6 @@ make build
 * [Open Science Frameword](https://osf.io/)
 * [Authorea](https://www.authorea.com)
 * [Manuscripts.io](https://www.manuscripts.io)
+* [Quiqqa](http://www.qiqqa.com/)
+* [Mendeley](https://www.mendeley.com/)
+* [Zotero](https://www.zotero.org/)
