@@ -41,3 +41,4 @@ make build
 * [Quiqqa](http://www.qiqqa.com/)
 * [Mendeley](https://www.mendeley.com/)
 * [Zotero](https://www.zotero.org/)
+* [Academia StackExchange](https://academia.stackexchange.com/)
