@@ -36,6 +36,8 @@ make build
 * [Open Science Frameword](https://osf.io/)
 * [Authorea](https://www.authorea.com)
 * [Manuscripts.io](https://www.manuscripts.io)
+* [Remarqable](https://www.remarqable.com/web/index.html)
+* [Scitrus](https://www.scitrus.com/welcome)
 * [Quiqqa](http://www.qiqqa.com/)
 * [Mendeley](https://www.mendeley.com/)
 * [Zotero](https://www.zotero.org/)
