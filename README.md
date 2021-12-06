@@ -42,3 +42,4 @@ make build
 * [Mendeley](https://www.mendeley.com/)
 * [Zotero](https://www.zotero.org/)
 * [Academia StackExchange](https://academia.stackexchange.com/)
+* [Synchronized editing: the future of collaborative writing](https://www.nature.com/articles/d41586-020-00916-6)
