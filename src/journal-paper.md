@@ -29,7 +29,7 @@ abstract: |
   It consists of two paragraphs.
 
 journal: "An awesome journal"
-date: "January 1, 2022"
+date: "April 1, 2022"
 bibliography: bib/bibliography.bib
 #linenumbers: true
 #numbersections: true
